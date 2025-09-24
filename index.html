@@ -94,8 +94,8 @@
                     <div class="header__main header-inner__main">
                         <div class="header__left">
                             <div class="header__action d-flex align-items-center">
-                                <div class="header__btn-wrap d-none d-sm-inline-flex">
-                                    <a href="index2.html" class="rr-btn btn-transparent"><i
+                                <div class="header__btn-wrap d-sm-inline-flex">
+                                    <a href="index2.html" class="rr-btn btn-transparent" id="aiNav"><i
                                         class="fa-regular fa-arrow-left"></i>AI/ML</a>
                                 </div>
                             </div>
@@ -111,8 +111,8 @@
                         </div>
                         <div class="header__right">
                             <div class="header__action d-flex align-items-center">
-                                <div class="header__btn-wrap d-none d-sm-inline-flex">
-                                    <a href="index3.html" class="rr-btn btn-transparent">AppDev<i
+                                <div class="header__btn-wrap d-sm-inline-flex">
+                                    <a href="index3.html" class="rr-btn btn-transparent" id="appNav">AppDev<i
                                             class="fa-regular fa-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -204,14 +204,14 @@
                         <div class="swiper h1-about2__slider mt-30">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="https://www.fiverr.com/irtaza_riyan" target="_blank">
+                                    <a href="https://www.upwork.com/freelancers/~012d2e447a08172e82" target="_blank">
                                         <div class="h1-about2__item br-10">
                                             <img src="./assets/imgs/about2/h1-aboute-card-img-2.png" alt="img not found">
                                         </div>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="https://www.upwork.com/freelancers/~012d2e447a08172e82"  target="_blank">
+                                    <a href="https://www.fiverr.com/irtaza_riyan"  target="_blank">
                                         <div class="h1-about2__item br-10">
                                             <img src="./assets/imgs/about2/h1-aboute-card-img-1.png" alt="img not found">
                                         </div>
@@ -1143,6 +1143,23 @@
 
 
     <!-- JS here -->
+    <script>
+        function updateContent() {
+            const aiNav = document.getElementById('aiNav');
+            const appNav = document.getElementById('appNav');
+            if (window.innerWidth <= 600) { 
+                aiNav.innerHTML = 'AI'; 
+                appNav.innerHTML = 'App';
+            } else {
+                aiNav.innerHTML = '<i class="fa-regular fa-arrow-left"></i>AI/ML';
+                appNav.innerHTML = 'AppDev<i class="fa-regular fa-arrow-right"></i>';
+            }
+        }
+        
+        updateContent();
+        
+        window.addEventListener('resize', updateContent);
+    </script>
     <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
     <script src="assets/js/vendor/chroma.min.js"></script>
     <script src="assets/js/plugins/waypoints.min.js"></script>
