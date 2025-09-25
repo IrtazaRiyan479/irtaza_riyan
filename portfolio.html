@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Shared on NULLPHPSCRIPT.COM - Monas - Personal Portfolio HTML Template.</title>
+    <title>Irtaza Riyan - Web Portfolio</title>
     <meta name="description" content="">
     <meta name="author" content="soukhinkhan">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,7 +31,6 @@
 
 <!-- preloader start -->
 <div id="preloader">
-    <div class="preloader-close">x</div>
     <div class="sk-three-bounce">
         <div class="sk-child sk-bounce1"></div>
         <div class="sk-child sk-bounce2"></div>
@@ -92,59 +91,14 @@
             <div class="mega__menu-wrapper p-relative">
                 <div class="header__main header-inner__main">
                     <div class="header__left">
-                        <div class="header__hamburger">
-                            <div class="sidebar__toggle">
-                                <button class="bar-icon">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </button>
+                        <div class="header__action d-flex align-items-center">
+                            <div class="header__btn-wrap d-sm-inline-flex">
+                                <a href="ai.html" class="rr-btn btn-transparent" id="aiNav"><i
+                                    class="fa-regular fa-arrow-left"></i>AI/ML</a>
                             </div>
-                            <h6 class="header__hamburger-text">Menu</h6>
                         </div>
                     </div>
                     <div class="header__middle ">
-                         <div class="mean__menu-wrapper d-none d-xl-block">
-                            <div class="main-menu">
-                                <nav id="mobile-menu-2">
-                                    <ul>
-                                        <li class="has-dropdown active">
-                                            <a href="javascript:void(0)">Home</a>
-                                            <ul class="submenu">
-                                                <li class="active"><a href="index.html">Designer</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="about-us.html">About us</a>
-                                        </li>
-                                        <li class="has-dropdown">
-                                            <a href="portfolio.html">project</a>
-                                            <ul class="submenu">
-                                                <li><a href="portfolio.html">project</a></li>
-                                                <li><a href="portfolio-details.html">project details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="has-dropdown">
-                                            <a href="service.html">Service</a>
-                                            <ul class="submenu">
-                                                <li><a href="service.html">Service</a></li>
-                                                <li><a href="service-details.html">Service Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="has-dropdown ">
-                                            <a href="javascript:void(0)">Page</a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">blog grid</a></li>
-                                                <li><a href="blog-details.html">blog details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="contact-us.html">Contact</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
                         <div class="header-1__logo">
                             <a href="index.html">
                                 <div class="logo">
@@ -155,8 +109,9 @@
                     </div>
                     <div class="header__right">
                         <div class="header__action d-flex align-items-center">
-                            <div class="header__btn-wrap d-none d-sm-inline-flex">
-                                <a href="contact-us.html" class="rr-btn btn-transparent">Let's Talk <i class="fa-regular fa-arrow-right"></i></a>
+                            <div class="header__btn-wrap d-sm-inline-flex">
+                                <a href="app.html" class="rr-btn btn-transparent" id="appNav">AppDev<i
+                                        class="fa-regular fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -181,20 +136,7 @@
             </section>
 
             <!-- start project section  -->
-            <script>
-               const f = c => {
-                    // Step 1: unhide all .moreProjects wrappers
-                    document.querySelectorAll('.moreProjects').forEach(w => w.classList.remove('d-none'));
-
-                    // Step 2: show/hide items by category
-                    document.querySelectorAll('.cat1, .cat2, .cat3, .cat4')
-                    .forEach(i => i.classList.toggle('d-none', c !== '*' && !i.classList.contains(c)));
-
-                    // Step 3: toggle Show More button
-                    const showMore = document.getElementById('showMore');
-                };
-              </script>
-             <div class="portfolio-area heading-bg pb-45 rr_title_anim">
+             <!-- <div class="portfolio-area heading-bg pb-45 rr_title_anim">
                 <div class="container">
                     <div class="portfolio-filter text-center ">
                         <button onclick="f('*'); document.getElementById('showMore').classList.remove('d-none');">All Projects</button></a>
@@ -205,16 +147,16 @@
                         ">Dashboard</button>
                     </div>
                 </div>
-             </div>
+             </div> -->
              <section class="h1-project__area section-space-bottom heading-2-bg overflow-hidden ">
                 <div class="h1-project__wrapper bg-dark-color custom-border">
                     <div class="container custom-container ">
                         <div class="row custom-gutter mddle-border ">
-                            <div class="col-md-6 cat1">
+                            <div class="col-md-6">
                                 <div class="h1-project__item br-10 custom-margin ">
                                     <div class="h1-project__item-thumb p-relative fade-anim" data-cursor-text='<div class="content">
-                                    <h3 class="title"><a href="portfolio-details.html">UI/UX Design</a></h3>
-                                    <span class="meta">Mobile Application Design</span>
+                                    <h3 class="title"><a href="portfolio-details.html">Restaurant Website</a></h3>
+                                    <span class="meta">Sizzle Restaurant Project</span>
                                   </div>' data-cursor-text-portfolio>
                                         <img src="./assets/imgs/project/project-img1.jpg" alt="img not found">
                                         <div class="h1-project__item-content p-absolute">
@@ -223,13 +165,28 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 cat1">
+                            <div class="col-md-6">
                                 <div class="h1-project__item  br-10">
                                     <div class="h1-project__item-thumb p-relative fade-anim" data-cursor-text='<div class="content">
-                                    <h3 class="title"><a href="portfolio-details.html">UI/UX Design</a></h3>
-                                    <span class="meta">Mobile Application Design</span>
+                                    <h3 class="title"><a href="portfolio-details.html">Shopify Store</a></h3>
+                                    <span class="meta">Opulence Jewllery Project</span>
                                   </div>' data-cursor-text-portfolio>
-                                        <img src="./assets/imgs/project/project-img2.jpg" alt="img not found">
+                                  <video 
+                                  src="./assets/videos/shopify.mp4" 
+                                  autoplay 
+                                  loop 
+                                  muted 
+                                  playsinline 
+                                  preload="auto"
+                                  style="
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    display: block;
+                                    border-radius: 10px;
+                                    pointer-events: none;
+                                  ">
+                                </video>
                                         <div class="h1-project__item-content p-absolute">
                                         </div>
                                     </div>
@@ -241,23 +198,53 @@
                 <div class="h1-project__wrapper bg-dark-color custom-border">
                     <div class="container custom-container ">
                         <div class="row custom-gutter mddle-border">
-                            <div class="col-md-6 cat1">
+                            <div class="col-md-6">
                                 <div class="h1-project__item br-10">
                                     <div class="h1-project__item-thumb p-relative fade-anim" data-cursor-text='<div class="content">
-                                    <h3 class="title"><a href="portfolio-details.html">UI/UX Design</a></h3>
-                                    <span class="meta">Mobile Application Design</span>
+                                    <h3 class="title"><a href="portfolio-details.html">Python Application</a></h3>
+                                    <span class="meta">Rung Cards Game</span>
                                   </div>' data-cursor-text-portfolio>
-                                        <img src="./assets/imgs/project/project-img3.jpg" alt="img not found">
+                                  <video 
+                                  src="./assets/videos/run.mp4" 
+                                  autoplay 
+                                  loop 
+                                  muted 
+                                  playsinline 
+                                  preload="auto"
+                                  style="
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    display: block;
+                                    border-radius: 10px;
+                                    pointer-events: none;
+                                  ">
+                                </video>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 cat1">
+                            <div class="col-md-6">
                                 <div class="h1-project__item  br-10">
                                     <div class="h1-project__item-thumb p-relative" data-cursor-text='<div class="content">
-                                    <h3 class="title"><a href="portfolio-details.html">UI/UX Design</a></h3>
-                                    <span class="meta">Mobile Application Design</span>
+                                    <h3 class="title"><a href="portfolio-details.html">MERN App</a></h3>
+                                    <span class="meta">Lead Gen Funnel Builder</span>
                                   </div>' data-cursor-text-portfolio>
-                                        <img src="./assets/imgs/project/project-img4.jpg" alt="img not found">
+                                  <video 
+                                  src="./assets/videos/funnel.mp4" 
+                                  autoplay 
+                                  loop 
+                                  muted 
+                                  playsinline 
+                                  preload="auto"
+                                  style="
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    display: block;
+                                    border-radius: 10px;
+                                    pointer-events: none;
+                                  ">
+                                </video>
                                     </div>
                                 </div>
                             </div>
@@ -267,23 +254,53 @@
                 <div class="h1-project__wrapper bg-dark-color custom-border">
                     <div class="container custom-container">
                         <div class="row custom-gutter mddle-border">
-                            <div class="col-md-6 cat2">
+                            <div class="col-md-6">
                                 <div class="h1-project__item br-10">
                                     <div class="h1-project__item-thumb p-relative" data-cursor-text='<div class="content">
-                                    <h3 class="title"><a href="portfolio-details.html">UI/UX Design</a></h3>
-                                    <span class="meta">Mobile Application Design</span>
+                                    <h3 class="title"><a href="portfolio-details.html">React App</a></h3>
+                                    <span class="meta">CoinEase Converter</span>
                                   </div>' data-cursor-text-portfolio>
-                                        <img src="./assets/imgs/project/project-img5.jpg" alt="img not found">
+                                  <video 
+                                  src="./assets/videos/currency.mp4" 
+                                  autoplay 
+                                  loop 
+                                  muted 
+                                  playsinline 
+                                  preload="auto"
+                                  style="
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    display: block;
+                                    border-radius: 10px;
+                                    pointer-events: none;
+                                  ">
+                                </video>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 cat2">
+                            <div class="col-md-6">
                                 <div class="h1-project__item  br-10">
                                     <div class="h1-project__item-thumb p-relative" data-cursor-text='<div class="content">
-                                    <h3 class="title"><a href="portfolio-details.html">UI/UX Design</a></h3>
-                                    <span class="meta">Mobile Application Design</span>
+                                    <h3 class="title"><a href="portfolio-details.html">Wordpress Website</a></h3>
+                                    <span class="meta">Ecommerce Web Store</span>
                                   </div>' data-cursor-text-portfolio>
-                                        <img src="./assets/imgs/project/project-img6.jpg" alt="img not found">
+                                  <video 
+                                  src="./assets/videos/eccomerce.mp4" 
+                                  autoplay 
+                                  loop 
+                                  muted 
+                                  playsinline 
+                                  preload="auto"
+                                  style="
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    display: block;
+                                    border-radius: 10px;
+                                    pointer-events: none;
+                                  ">
+                                </video>
                                     </div>
                                 </div>
                             </div>
@@ -293,26 +310,63 @@
                 <div class="h1-project__wrapper bg-dark-color custom-border d-none mt-3 moreProjects">
                     <div class="container custom-container ">
                         <div class="row custom-gutter mddle-border ">
-                            <div class="col-md-6 cat2">
+                            <div class="col-md-6">
                                 <div class="h1-project__item br-10 custom-margin ">
                                     <div class="h1-project__item-thumb p-relative fade-anim" data-cursor-text='<div class="content">
-                                    <h3 class="title"><a href="portfolio-details.html">UI/UX Design</a></h3>
-                                    <span class="meta">Mobile Application Design</span>
+                                    <h3 class="title"><a href="portfolio-details.html">Selenium Scraper</a></h3>
+                                    <span class="meta">Agoda.com Web Scraping</span>
                                     </div>' data-cursor-text-portfolio>
-                                        <img src="./assets/imgs/project/project-img1.jpg" alt="img not found">
+                                    <video 
+                                    src="./assets/videos/agoda.mp4" 
+                                    autoplay 
+                                    loop 
+                                    muted 
+                                    playsinline 
+                                    preload="auto"
+                                    style="
+                                      width: 100%;
+                                      height: 100%;
+                                      object-fit: cover;
+                                      display: block;
+                                      border-radius: 10px;
+                                      pointer-events: none;
+                                    ">
+                                  </video>
                                         <div class="h1-project__item-content p-absolute">
 
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 cat3">
+                            <div class="col-md-6">
                                 <div class="h1-project__item  br-10">
                                     <div class="h1-project__item-thumb p-relative fade-anim" data-cursor-text='<div class="content">
-                                    <h3 class="title"><a href="portfolio-details.html">UI/UX Design</a></h3>
-                                    <span class="meta">Mobile Application Design</span>
+                                    <h3 class="title"><a href="portfolio-details.html">BeautifulSoup Scraper</a></h3>
+                                    <span class="meta">Booking.com Hotels Scraping</span>
                                     </div>' data-cursor-text-portfolio>
-                                        <img src="./assets/imgs/project/project-img2.jpg" alt="img not found">
+                                    <video 
+                                    id="scraperVideo"
+                                    src="./assets/videos/scraper.mp4" 
+                                    autoplay 
+                                    loop 
+                                    muted 
+                                    playsinline 
+                                    preload="auto"
+                                    style="
+                                      width: 100%;
+                                      height: 100%;
+                                      object-fit: cover;
+                                      display: block;
+                                      border-radius: 10px;
+                                      pointer-events: none;
+                                    ">
+                                  </video>
+                                  <script>
+                                    const vid = document.getElementById('scraperVideo');
+                                    vid.addEventListener('loadedmetadata', () => {
+                                      vid.currentTime = 30;
+                                    });
+                                  </script>
                                         <div class="h1-project__item-content p-absolute">
                                         </div>
                                     </div>
@@ -324,23 +378,23 @@
                 <div class="h1-project__wrapper bg-dark-color custom-border d-none mt-3 moreProjects">
                     <div class="container custom-container ">
                         <div class="row custom-gutter mddle-border">
-                            <div class="col-md-6 cat3">
+                            <div class="col-md-6">
                                 <div class="h1-project__item br-10">
                                     <div class="h1-project__item-thumb p-relative fade-anim" data-cursor-text='<div class="content">
-                                    <h3 class="title"><a href="portfolio-details.html">UI/UX Design</a></h3>
-                                    <span class="meta">Mobile Application Design</span>
+                                    <h3 class="title"><a href="portfolio-details.html">Wix Design</a></h3>
+                                    <span class="meta">BizEdge Consultant Web Design</span>
                                     </div>' data-cursor-text-portfolio>
-                                        <img src="./assets/imgs/project/project-img3.jpg" alt="img not found">
+                                        <img src="./assets/imgs/project/tooltrek.png" alt="img not found">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 cat3">
+                            <div class="col-md-6">
                                 <div class="h1-project__item  br-10">
                                     <div class="h1-project__item-thumb p-relative" data-cursor-text='<div class="content">
-                                    <h3 class="title"><a href="portfolio-details.html">UI/UX Design</a></h3>
-                                    <span class="meta">Mobile Application Design</span>
+                                    <h3 class="title"><a href="portfolio-details.html">Figma Design</a></h3>
+                                    <span class="meta">Tourzia Travel Web Design</span>
                                     </div>' data-cursor-text-portfolio>
-                                        <img src="./assets/imgs/project/project-img4.jpg" alt="img not found">
+                                        <img src="./assets/imgs/project/image_original_2.png" alt="img not found">
                                     </div>
                                 </div>
                             </div>
@@ -350,23 +404,53 @@
                 <div class="h1-project__wrapper bg-dark-color custom-border d-none mt-3 moreProjects">
                     <div class="container custom-container">
                         <div class="row custom-gutter mddle-border">
-                            <div class="col-md-6 cat4">
+                            <div class="col-md-6">
                                 <div class="h1-project__item br-10">
                                     <div class="h1-project__item-thumb p-relative" data-cursor-text='<div class="content">
-                                    <h3 class="title"><a href="portfolio-details.html">UI/UX Design</a></h3>
-                                    <span class="meta">Mobile Application Design</span>
+                                    <h3 class="title"><a href="portfolio-details.html">Angular Application</a></h3>
+                                    <span class="meta">BlissNotes Web App</span>
                                     </div>' data-cursor-text-portfolio>
-                                        <img src="./assets/imgs/project/project-img5.jpg" alt="img not found">
+                                    <video 
+                                    src="./assets/videos/notes.mp4" 
+                                    autoplay 
+                                    loop 
+                                    muted 
+                                    playsinline 
+                                    preload="auto"
+                                    style="
+                                      width: 100%;
+                                      height: 100%;
+                                      object-fit: cover;
+                                      display: block;
+                                      border-radius: 10px;
+                                      pointer-events: none;
+                                    ">
+                                  </video>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 cat4">
+                            <div class="col-md-6">
                                 <div class="h1-project__item  br-10">
                                     <div class="h1-project__item-thumb p-relative" data-cursor-text='<div class="content">
-                                    <h3 class="title"><a href="portfolio-details.html">UI/UX Design</a></h3>
-                                    <span class="meta">Mobile Application Design</span>
+                                    <h3 class="title"><a href="portfolio-details.html">Adobe Premiere Video</a></h3>
+                                    <span class="meta">Restaurant Menu Showcase</span>
                                     </div>' data-cursor-text-portfolio>
-                                        <img src="./assets/imgs/project/project-img6.jpg" alt="img not found">
+                                    <video 
+                                    src="./assets/videos/retauraant.mp4" 
+                                    autoplay 
+                                    loop 
+                                    muted 
+                                    playsinline 
+                                    preload="auto"
+                                    style="
+                                      width: 100%;
+                                      height: 100%;
+                                      object-fit: cover;
+                                      display: block;
+                                      border-radius: 10px;
+                                      pointer-events: none;
+                                    ">
+                                  </video>
                                     </div>
                                 </div>
                             </div>
@@ -531,13 +615,11 @@
             <section class="project-area section-space-top-2 section-space-bottom heading-bg">
                 <div class="container">
                 <div class="project-info text-center hero">
-                    <h3 class="project-title _split_text">I offer creative services that push boundaries 
-                        and deliver results. Take your business to the 
-                        next level.</h3>
+                    <h3 class="project-title _split_text">I create innovative web solutions that break the mold and drive results. Let’s take your business to the next level!</h3>
                 </div>
                 <div class="wrap-1 d-flex justify-content-center mt-45 "> 
                     <div class="tp-portfolio-more tp-hover-btn-wrapper tp-btn-bounce-2">
-                        <a href="project.html"
+                        <a href="https://wa.me/+923443466044?text=Hello,%20I’d%20like%20to%20discuss..." target="_blank"
                             class="tp-hover-btn tp-hover-btn-item tp-btn-circle-2 d-flex align-items-center justify-content-center flex-column">
                             <span class="tp-btn-circle-text-2">
                                 Let’s Collaborate
@@ -580,63 +662,71 @@
                      </div>
                  </div>
              </div>
-             <div class="custom-container">
-                 <div class="row h1-footer-custom-gutter align-items-stretch"> 
-                     <div class="col-lg-3 col-md-6">
-                         <div class="h1-footer__widget body-dark-color rounded-start-5 h-100 d-flex flex-column">
-                             <div class="h1-footer__widget-author d-flex align-items-center justify-content-start justify-content-xxl-end gap-3 p-relative">
-                                 <div class="half-circle-clip-wrapper d-flex align-items-center justify-content-end position-absolute">
-                                     <div class="half-circle clip-bg d-none d-xxl-block "></div>
-                                     <div class="half-circle clip-md d-none d-xxl-block "></div>
-                                     <div class="half-circle clip-sm d-none d-xxl-block "></div>
-                                 </div>
- 
-                                 <div class="h1-footer__widget-author-icon">
-                                     <img src="./assets/imgs/footer/h1-footer-icon-1.png" alt="icon not found">
-                                 </div>
-                                 <div class="h1-footer__widget-author-icon-text">
-                                     <h6><a href="#">I’m Monas, </a></h6>
-                                     <p>Creative Designer</p>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-lg-3  col-md-6 footer-custom-border ">
-                         <div class="h1-footer__widget body-dark-color h-100 d-flex flex-column">
-                             <div class="h1-footer__widget-link">
-                                 <p>INQUIRY</p>
-                                 <h5><a href="#">hellocreative@gmail.com</a></h5>
-                                 <h6><a href="#">+1 (123) 456-7890</a></h6>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-lg-3  col-md-6 footer-custom-border ">
-                         <div class="h1-footer__widget body-dark-color  h-100 d-flex flex-column">
-                             <div class="h1-footer__widget-link">
-                                 <p>Location</p>
-                                 <h5><a href="#">152 Thatcher Road St, <br> Mahattan, NY 10463, US </a></h5>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-lg-3  col-md-6 footer-custom-border">
-                         <div class="h1-footer__widget body-dark-color rounded-end-5 h-100 d-flex flex-column">
-                             <div class="h1-footer__widget-social">
-                                 <p>FOLLOW US</p>
-                                 <ul>
-                                     <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                     <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                     <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                     <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-                 <!-- start copy right section -->
-                  <div class="h1-copyright__area about-copyright text-center py-lg-5 py-3 bg-light  rounded-bottom-0 rounded-top-5">
-                     <p>Copyright © 2025 Monas. All Rights Reserved.</p>
-                  </div>
-             </div>
+             <div class="container custom-container">
+                <div class="row h1-footer-custom-gutter align-items-stretch">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="h1-footer__widget body-dark-color rounded-start-5 h-100 d-flex flex-column">
+                            <div
+                                class="h1-footer__widget-author d-flex align-items-center justify-content-start justify-content-xxl-end gap-3 p-relative">
+                                <div
+                                    class="half-circle-clip-wrapper d-flex align-items-center justify-content-end position-absolute">
+                                    <div class="half-circle clip-bg d-none d-xxl-block "></div>
+                                    <div class="half-circle clip-md d-none d-xxl-block "></div>
+                                    <div class="half-circle clip-sm d-none d-xxl-block "></div>
+                                </div>
+
+                                <div class="h1-footer__widget-author-icon">
+                                    <img src="./assets/imgs/footer/h1-footer-icon-1.png" alt="icon not found">
+                                </div>
+                                <div class="h1-footer__widget-author-icon-text">
+                                    <h6><a href="#">I’m Irtaza, </a></h6>
+                                    <p>Web Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-md-6 footer-custom-border ">
+                        <div class="h1-footer__widget body-dark-color h-100 d-flex flex-column">
+                            <div class="h1-footer__widget-link">
+                                <p>INQUIRY</p>
+                                <h5><a href="mailto:martinirtaza@gmail.com?subject=Project Inquiry&body=Hello, I’d like to discuss...">martinirtaza@gmail.com</a></h5>
+                                <h6><a href="tel:+923443466044">+92 344-3466044</a></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-md-6 footer-custom-border ">
+                        <div class="h1-footer__widget body-dark-color  h-100 d-flex flex-column">
+                            <div class="h1-footer__widget-link">
+                                <p>Location</p>
+                                <h5><a href="https://www.google.com/maps?q=29.400996362836988,71.69297772434768" target="_blank">Riaz Colony Street No. 2, <br> Bahawalpur, Punjab, PK </a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-md-6 footer-custom-border">
+                        <div class="h1-footer__widget body-dark-color rounded-end-5 h-100 d-flex flex-column">
+                            <div class="h1-footer__widget-social">
+                                <p>FOLLOW US</p>
+                                <ul>
+                                    <li><a href="https://www.upwork.com/freelancers/~012d2e447a08172e82" target="_blank"><svg width="17" height="17" viewBox="0 0 512 512" style="width:1em;height:1em;vertical-align:-0.125em;fill:currentColor;">
+                                        <g id="#e7e7e7ff">
+                                        <path fill="#e7e7e7" opacity="1.00" d=" M 183.25 132.01 C 200.12 131.68 217.00 131.96 233.88 131.87 C 245.37 170.47 262.97 207.08 284.41 241.11 C 291.84 215.45 306.52 191.02 329.00 175.92 C 349.74 161.71 376.23 156.97 400.82 161.47 C 421.43 165.19 440.69 175.69 455.13 190.83 C 470.49 206.76 480.38 227.89 482.56 249.92 C 484.91 273.37 479.22 297.61 466.32 317.36 C 453.96 336.48 434.97 351.26 413.27 358.20 C 395.34 364.13 375.94 364.05 357.51 360.69 C 341.81 357.82 326.80 351.68 313.35 343.13 C 306.10 378.95 298.90 414.78 291.66 450.60 C 274.51 450.60 257.35 450.61 240.20 450.60 C 250.69 401.47 261.39 352.39 271.76 303.24 C 258.05 284.22 246.36 263.82 235.65 242.99 C 235.47 257.02 236.60 271.23 233.75 285.08 C 229.21 308.34 215.98 329.77 197.21 344.24 C 179.38 358.18 156.58 365.58 133.96 364.73 C 112.45 364.10 91.30 355.99 74.78 342.22 C 52.56 324.00 39.06 295.72 38.86 266.98 C 38.78 222.23 38.85 177.48 38.83 132.74 C 55.08 132.72 71.32 132.74 87.57 132.73 C 87.63 176.80 87.53 220.87 87.62 264.94 C 87.66 278.07 93.55 290.95 103.24 299.76 C 113.78 309.57 128.91 314.22 143.12 311.77 C 160.94 308.97 176.38 295.21 181.34 277.89 C 183.89 269.84 183.23 261.30 183.31 252.98 C 183.27 212.66 183.40 172.33 183.25 132.01 M 349.46 226.48 C 338.64 238.82 333.65 255.08 331.08 271.01 C 329.47 277.31 327.66 283.57 325.97 289.86 C 341.96 303.02 362.01 312.33 382.99 312.40 C 406.81 312.35 428.58 293.60 433.27 270.44 C 437.01 253.22 429.88 234.54 416.50 223.31 C 406.03 214.31 391.77 210.10 378.08 211.61 C 367.08 212.65 356.62 218.07 349.46 226.48 Z" />
+                                        </g>
+                                        </svg>
+                                        </a></li>
+                                    <li><a href="https://www.linkedin.com/in/irtaza-riyan-49ba802ba/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li><a href="https://youtube.com/@irtazariyan-j1z?si=ksTfUC1fB-jFBdxQ" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                                    <li><a href="https://github.com/IrtazaRiyan479" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- start copy right section -->
+                <div
+                    class="h1-copyright__area about-copyright text-center py-lg-5 py-3 bg-light  rounded-bottom-0 rounded-top-5">
+                    <p>Copyright © <script>document.write(new Date().getFullYear())</script> Irtaza R. All Rights Reserved.</p>
+                </div>
+            </div>
             </section>
          </footer>
         <!-- Footer area end -->
